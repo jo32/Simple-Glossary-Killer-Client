@@ -453,7 +453,7 @@ public class MainWindows {
 		this.lang = label_1;
 		label_1.setText("");
 		label_1.setForeground(SWTResourceManager.getColor(0, 0, 128));
-		label_1.setFont(SWTResourceManager.getFont("Arial Unicode MS", 15, SWT.NORMAL));
+		label_1.setFont(SWTResourceManager.getFont("Kingsoft Phonetic Plain", 15, SWT.NORMAL));
 		label_1.setBounds(310, 0, 164, 30);
 
 		btnShowAnswer.setFocus();
@@ -536,6 +536,7 @@ public class MainWindows {
 			this.index += 1;
 			this.setWord(index);
 			this.wordDef.setText("");
+			this.lang.setText("");
 		}
 	}
 
@@ -544,6 +545,7 @@ public class MainWindows {
 			this.index -= 1;
 			this.setWord(index);
 			this.wordDef.setText("");
+			this.lang.setText("");
 		}
 	}
 
